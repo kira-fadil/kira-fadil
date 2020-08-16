@@ -50,7 +50,7 @@
 function countdownTime(){
 	
 	if(isExists('#clock')){
-		$('#clock').countdown('2020/09/01:', function(event){
+		$('#clock').countdown('2020/09/01 15:30:00', function(event){
 			var $this = $(this).html(event.strftime(''
 				+ '<div class="time-sec"><span class="title">%D</span> Tage </div>'
 				+ '<div class="time-sec"><span class="title">%H</span> Stunden </div>'
